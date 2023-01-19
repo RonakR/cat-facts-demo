@@ -591,11 +591,39 @@
 			}
 		]
 	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3f62e117-d91c-4351-89b5-15fc1d4765aa",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "1170db29-c850-49da-b594-ca95e60fbac5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "751080e1-ef41-4121-8191-91c1477708db",
+			"id": "71e1f22a-ec06-4837-8c21-593602100c53",
 			"key": "baseUrl",
 			"value": "https://catfact.ninja",
+			"type": "string"
+		},
+		{
+			"id": "99bdbb6a-a113-4f15-816c-01dbfa817a76",
+			"key": "x-api-key",
+			"value": "",
 			"type": "string"
 		}
 	]
