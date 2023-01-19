@@ -21,7 +21,7 @@ jobs:
       - name: Run API tests
         run: |
           # Lint your API using Postman CLI
-          postman api lint --integration-id 131138
+          postman api lint --integration-id 131295
   unit-tests:
     needs: [build, api-governance-tests]
     runs-on: ubuntu-latest
