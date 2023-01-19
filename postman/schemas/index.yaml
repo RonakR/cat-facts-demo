@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Cat Fact API
   contact:
-    email: contact@catfact.ninja
+    email: admin@catfact.ninja
   version: 1.0.0
 servers:
   - url: https://catfact.ninja
