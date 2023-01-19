@@ -8,6 +8,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "559dcd4c-3592-41ae-9f08-a3b7a97c7509"
+		},
+		{
 			"name": "Returns a list of breeds",
 			"id": "85aa43d6-25fb-48d5-85dd-9f4ae0c04abb",
 			"protocolProfileBehavior": {
