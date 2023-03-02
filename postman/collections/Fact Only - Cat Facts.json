@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "e8bcdbea-0e62-47ea-8386-3cc5e6b58044",
+		"_postman_id": "610d8ce6-9863-43b7-83bd-679b3e1cf52e",
 		"name": "Fact Only - Cat Facts",
 		"description": "Cat Fact API\n\nContact Support:\n Email: admin@admin.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "24492028-e8bcdbea-0e62-47ea-8386-3cc5e6b58044"
+		"_uid": "24492028-610d8ce6-9863-43b7-83bd-679b3e1cf52e"
 	},
 	"item": [
 		{
 			"name": "Returns a random fact",
-			"id": "14aa8f05-7118-4ba4-bee0-99412205ed38",
+			"id": "532047b5-70c3-42a5-8c0f-ae6ace4bf4cf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -61,7 +61,7 @@
 			},
 			"response": [
 				{
-					"id": "cd6eecf1-7e34-47b8-b5cf-2f6762ed6a8b",
+					"id": "557debc4-9a4e-4c4a-9b11-8b25de6ae27d",
 					"name": "Normal response",
 					"originalRequest": {
 						"method": "GET",
@@ -107,6 +107,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -117,7 +118,7 @@
 					"body": "{\n  \"fact\": \"A cat's normal pulse is 140-240 beats per minute, with an average of 195.\",\n  \"length\": 73\n}"
 				},
 				{
-					"id": "5f43de6e-bd75-4ab5-9255-76a55ab0ba4a",
+					"id": "c05a705d-fad2-481f-8477-0cb8d10a355c",
 					"name": "Fact not found",
 					"originalRequest": {
 						"method": "GET",
@@ -163,6 +164,7 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -173,7 +175,7 @@
 					"body": ""
 				},
 				{
-					"id": "6f4b0ade-44ac-4425-8753-a73c7a213933",
+					"id": "1ffbd3eb-37c2-4476-9696-7074115bd51e",
 					"name": "Normal response",
 					"originalRequest": {
 						"method": "GET",
@@ -219,6 +221,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
