@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "610d8ce6-9863-43b7-83bd-679b3e1cf52e",
+		"_postman_id": "85b2c6d8-bf87-492b-9bd0-961a209f1006",
 		"name": "Fact Only - Cat Facts",
 		"description": "Cat Fact API\n\nContact Support:\n Email: admin@admin.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "24492028-610d8ce6-9863-43b7-83bd-679b3e1cf52e"
+		"_uid": "24492028-85b2c6d8-bf87-492b-9bd0-961a209f1006"
 	},
 	"item": [
 		{
 			"name": "Returns a random fact",
-			"id": "532047b5-70c3-42a5-8c0f-ae6ace4bf4cf",
+			"id": "97fb977f-0021-443f-b63d-12e33dfb2010",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -61,7 +61,7 @@
 			},
 			"response": [
 				{
-					"id": "557debc4-9a4e-4c4a-9b11-8b25de6ae27d",
+					"id": "eaa229cd-70ea-4c1b-97ca-b16ae10cddef",
 					"name": "Normal response",
 					"originalRequest": {
 						"method": "GET",
@@ -118,7 +118,7 @@
 					"body": "{\n  \"fact\": \"A cat's normal pulse is 140-240 beats per minute, with an average of 195.\",\n  \"length\": 73\n}"
 				},
 				{
-					"id": "c05a705d-fad2-481f-8477-0cb8d10a355c",
+					"id": "bed29bb4-4908-4c02-817a-72e86a1a8443",
 					"name": "Fact not found",
 					"originalRequest": {
 						"method": "GET",
@@ -175,7 +175,7 @@
 					"body": ""
 				},
 				{
-					"id": "1ffbd3eb-37c2-4476-9696-7074115bd51e",
+					"id": "c2c49460-66de-4264-a8c2-a3d2b9d2db19",
 					"name": "Normal response",
 					"originalRequest": {
 						"method": "GET",
